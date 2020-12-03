@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:padding="15dp"
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:background="@drawable/bg"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:hint= "Weight in KG"
+        android:layout_height="wrap_content"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+    <EditText
+        android:padding="15dp"
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:hint= "Height in M"
+        android:layout_height="wrap_content"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"/>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calculate"
+        android:background="@drawable/bg"/>
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="40dp"
+        />
+    <TextView
+        android:id="@+id/COMMENT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="8dp"
+        android:text="About \n developer"
+        android:layout_marginTop="25dp"/>
+
+
+</LinearLayout>

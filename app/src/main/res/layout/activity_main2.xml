@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1887F"
+    tools:context=".MainActivity2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp">
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:src="@drawable/dev"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp">
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"/>
+        <TextView
+            android:padding="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Hey users myself Vinay Gautam , an aspirant andriod application developer on Marshmellow.As everyone almost is gaining tummy in this lockdow keep a track on it and how much you should loose or gain"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:fontFamily="sans-serif-black"
+            android:backgroundTint="#FFFFFF"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
